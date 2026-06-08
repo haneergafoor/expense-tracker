@@ -1,0 +1,82 @@
+{
+  "expenses": [
+    {
+      "id": "1",
+      "title": "Grocery Shopping",
+      "categoryId": 1,
+      "amount": 1250,
+      "date": "2026-06-01",
+      "notes": "Weekly vegetables and fruits",
+      "createdAt": "2026-06-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Fuel - Petrol",
+      "categoryId": 2,
+      "amount": 800,
+      "date": "2026-06-02",
+      "notes": "Car refill",
+      "createdAt": "2026-06-02T14:30:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Medicine",
+      "categoryId": 3,
+      "amount": 450,
+      "date": "2026-06-03",
+      "notes": "Monthly medications",
+      "createdAt": "2026-06-03T09:15:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Electricity Bill",
+      "categoryId": 4,
+      "amount": 2200,
+      "date": "2026-06-05",
+      "notes": "Monthly electricity",
+      "createdAt": "2026-06-05T16:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Restaurant Dinner",
+      "categoryId": 1,
+      "amount": 1800,
+      "date": "2026-06-06",
+      "notes": "Family dinner out",
+      "createdAt": "2026-06-06T19:30:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Food",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": 2,
+      "name": "Fuel",
+      "color": "#4ECDC4"
+    },
+    {
+      "id": 3,
+      "name": "Hospital",
+      "color": "#95E1D3"
+    },
+    {
+      "id": 4,
+      "name": "Bills",
+      "color": "#F38181"
+    },
+    {
+      "id": 5,
+      "name": "Home Maintenance",
+      "color": "#AA96DA"
+    },
+    {
+      "id": 6,
+      "name": "Others",
+      "color": "#FCBAD3"
+    }
+  ],
+  "budget": 20000
+}
